@@ -1,0 +1,77 @@
+a, h1 {
+    color: red;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #00CEEF;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+/* My own style rules, that i allowed to do*/ 
+
+/*#small {
+    max-width: 20%;
+    height: auto;
+}
+
+#big {
+    max-width: 50%;
+    height: auto;
+}*/
+
+.links {
+    color: red;
+}
+
+.small {
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 15px;
+}
+
+li {
+    margin-top: auto;
+}
+
+.gato {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.MyName {
+    color: red;
+}
+
+.instagram {
+    max-width: 15%;
+    max-height: 15%;
+}
+
+.facebook {
+    max-width: 15%;
+    max-height: 15%;
+}
+
+.twitter {
+    max-width: 15%;
+    max-height: 15%;
+}
